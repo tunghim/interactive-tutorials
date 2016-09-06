@@ -13,7 +13,7 @@ Is equivalent to:
         return "Return"
     function=decorator(function) #this passes the function to the decorator, and reassigns it to the functions
 
-As you may have seen, a decorator is just another function which takes a functions and returns one. For example you could do this:
+As you may have seen, a decorator is just another function which takes a function and returns one. For example you could do this:
 
     def repeater(old_function):
         def new_function(*args, **kwds): #See learnpython.org/page/Multiple%20Function%20Arguments for how *args and **kwds works
